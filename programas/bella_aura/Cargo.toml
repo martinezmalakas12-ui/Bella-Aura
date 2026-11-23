@@ -1,0 +1,22 @@
+
+[package]
+name = "bella_aura"
+version = "0.1.0"
+description = "Sistema de gestion de visitantes, trabajadores y proveedores de Bella Aura Cosmetics"
+edition = "2021"
+
+[lib]
+name = "bella_aura"
+crate-type = ["cdylib", "lib"]
+path = "src/lib.rs"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.31.1"
