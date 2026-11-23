@@ -1,4 +1,4 @@
-# Bella Aura Cosmetics — Solana
+# Bella Aura Cosmetics 
 
 ## Descripción del proyecto
 Bella Aura Cosmetics es un sistema de gestión empresarial desarrollado como proyecto propio.
